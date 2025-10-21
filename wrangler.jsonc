@@ -16,7 +16,14 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"kv_namespaces": [
+		{
+			"binding": "fluxia_database",
+			"id": "26ab4f5862e34b25bed31d272987c21b"
+		}
+	]
+
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
